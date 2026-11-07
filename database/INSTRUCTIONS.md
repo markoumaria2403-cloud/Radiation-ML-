@@ -28,7 +28,3 @@ sqlite3 database/nasaspacechallenge.db < database/schema.sql
 ```bash
 sqlite3 database/nasaspacechallenge.db < database/seed.sql
 ```
-
-That's it! Your local database is ready.
-
-**Note:** The database file is ignored by Git. Do not commit it.

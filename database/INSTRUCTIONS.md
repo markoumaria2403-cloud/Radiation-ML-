@@ -1,6 +1,5 @@
 # Database Setup
 
-ASTRA uses SQLite.
 
 ### 1. Install SQLite
 

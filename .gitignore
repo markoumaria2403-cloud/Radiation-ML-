@@ -1,0 +1,18 @@
+# forecast: large data, downloaded or generated (re-made by the scripts): keep out of git
+forecast/data/
+forecast/models/
+forecast/Figures/forecasts/
+
+# live: log and figure, re-made every 5 minutes
+live/data/
+live/Figures/
+
+# shielding: the full ISS download is too big for GitHub
+shielding/Destel/iss_dostel_2017-09.csv
+
+*.nc
+_to_delete/
+
+# python
+__pycache__/
+*.pyc

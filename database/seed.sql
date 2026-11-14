@@ -80,6 +80,22 @@ INSERT INTO measurements VALUES(45,3,2,117.0,'2026-11-09 09:05:00',10);
 INSERT INTO measurements VALUES(46,3,3,76.0,'2026-11-09 09:05:00',10);
 INSERT INTO measurements VALUES(47,3,4,7.0,'2026-11-09 09:05:00',10);
 INSERT INTO measurements VALUES(48,3,11,2.0,'2026-11-09 09:05:00',10);
+INSERT INTO measurements VALUES(49,1,5,36.8,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(50,1,6,98.0,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(51,1,7,15.0,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(52,1,8,78.5,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(53,1,9,4.0,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(54,1,10,4.0,'2026-11-10 09:05:00',1);
+INSERT INTO measurements VALUES(55,2,12,55.0,'2026-11-10 09:10:00',7);
+INSERT INTO measurements VALUES(56,2,13,90.0,'2026-11-10 09:10:00',7);
+INSERT INTO measurements VALUES(57,2,14,5.0,'2026-11-10 09:10:00',7);
+INSERT INTO measurements VALUES(58,2,15,0.4,'2026-11-10 09:10:00',7);
+INSERT INTO measurements VALUES(59,2,16,1.0,'2026-11-10 09:10:00',7);
+INSERT INTO measurements VALUES(60,3,17,270.0,'2026-11-10 09:15:00',9);
+INSERT INTO measurements VALUES(61,3,18,75.0,'2026-11-10 09:15:00',9);
+INSERT INTO measurements VALUES(62,3,19,2400.0,'2026-11-10 09:15:00',9);
+INSERT INTO measurements VALUES(63,3,20,2200.0,'2026-11-10 09:15:00',9);
+INSERT INTO measurements VALUES(64,3,21,85.0,'2026-11-10 09:15:00',9);
 INSERT INTO alerts VALUES(1,1,'info','Daily health assessment completed.','2026-11-04 22:26:29',0,NULL);
 INSERT INTO alerts VALUES(2,1,'warning','Sleep duration has decreased compared with baseline.','2026-11-04 22:26:29',1,4);
 INSERT INTO alerts VALUES(3,1,'critical','Example critical alert for interface testing.','2026-11-04 22:26:29',0,NULL);
@@ -102,3 +118,4 @@ INSERT INTO symptoms VALUES(8,2,'Fatigue',4,'Feeling unusually tired','2026-11-0
 INSERT INTO symptoms VALUES(9,2,'Sleep disturbance',3,'Difficulty maintaining sleep','2026-11-09 09:07:00',8);
 INSERT INTO symptoms VALUES(10,3,'Dizziness',2,'Brief dizziness after exercise','2026-11-08 09:07:00',9);
 INSERT INTO symptoms VALUES(11,3,'Headache',2,'Mild headache','2026-11-09 09:07:00',10);
+

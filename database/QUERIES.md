@@ -1,7 +1,3 @@
-# ASTRA SQL Queries — Steps 5–10
-
-These queries use your ASTRA SQLite database.
-
 ---
 
 ## 1. JOIN — Combine related tables

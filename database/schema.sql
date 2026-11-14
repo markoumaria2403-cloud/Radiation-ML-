@@ -39,6 +39,7 @@ CREATE TABLE measurements (
 CREATE TABLE alerts (
     id INTEGER PRIMARY KEY,
     astronaut_id INTEGER NOT NULL,
+    measurement_id INTEGER,
     severity TEXT NOT NULL CHECK (
         severity IN ('info', 'warning', 'critical')
     ),
@@ -46,7 +47,8 @@ CREATE TABLE alerts (
     created_at TEXT DEFAULT CURRENT_TIMESTAMP,
     acknowledged INTEGER NOT NULL DEFAULT 0
     CHECK (acknowledged IN (0, 1)),
-    FOREIGN KEY (astronaut_id) REFERENCES astronauts(id)
+    FOREIGN KEY (astronaut_id) REFERENCES astronauts(id),
+    FOREIGN KEY (measurement_id) REFERENCES measurements(id)
 );
 CREATE INDEX idx_measurements_astronaut
 ON measurements(astronaut_id);

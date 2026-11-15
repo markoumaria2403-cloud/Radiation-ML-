@@ -1,0 +1,11 @@
+{
+  "module": "alert",
+  "updated": "2026-01-18 13:00:00",
+  "level": "green",
+  "headline": "All clear: the Sun is quiet",
+  "what_to_do": "Normal work.",
+  "why": [
+    "Protons outside the spacecraft now: below storm level.",
+    "Your mission (14 days): cosmic rays alone give about 7 mSv (3% of the monthly allowance)."
+  ]
+}

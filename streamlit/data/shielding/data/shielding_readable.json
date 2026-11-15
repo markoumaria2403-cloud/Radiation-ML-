@@ -1,0 +1,44 @@
+{
+  "module": "shielding",
+  "updated": "2026-01-18 13:00:00",
+  "crew": {
+    "CDR": {
+      "level": "green",
+      "message": "Normal work (you are in the Cockpit)."
+    },
+    "PLT": {
+      "level": "green",
+      "message": "Normal work (you are in the Hygiene bay)."
+    },
+    "MS1": {
+      "level": "green",
+      "message": "Normal work (you are in the Lower equipment bay)."
+    },
+    "MS2": {
+      "level": "green",
+      "message": "Normal work (you are in the Storm shelter)."
+    },
+    "MS3": {
+      "level": "green",
+      "message": "Normal work (you are in the Crew seats)."
+    },
+    "MS4": {
+      "level": "green",
+      "message": "Normal work (you are in the Lower equipment bay)."
+    }
+  },
+  "rooms": {
+    "Lower equipment bay": "safe",
+    "Cockpit": "safe",
+    "Crew seats": "safe",
+    "Galley": "safe",
+    "Exercise area": "safe",
+    "Hygiene bay": "safe",
+    "Storm shelter": "safe",
+    "Sleeping area": "safe"
+  },
+  "level": "green",
+  "headline": "All clear: the Sun is quiet",
+  "what_to_do": "Normal work.",
+  "why": []
+}

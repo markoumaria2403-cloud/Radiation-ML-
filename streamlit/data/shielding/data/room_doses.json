@@ -1,0 +1,45 @@
+{
+  "storm": "live 2026-01-19 01:15:00 (STORM), WORST CASE (forecast + 1.65 x error)",
+  "rooms": {
+    "shelter": {
+      "dose_msv": 0.006,
+      "pct_limit": 0.002,
+      "level": "SAFE"
+    },
+    "leb": {
+      "dose_msv": 0.075,
+      "pct_limit": 0.03,
+      "level": "SAFE"
+    },
+    "sleep": {
+      "dose_msv": 0.079,
+      "pct_limit": 0.032,
+      "level": "SAFE"
+    },
+    "galley": {
+      "dose_msv": 0.133,
+      "pct_limit": 0.053,
+      "level": "SAFE"
+    },
+    "hygiene": {
+      "dose_msv": 0.137,
+      "pct_limit": 0.055,
+      "level": "SAFE"
+    },
+    "seats": {
+      "dose_msv": 0.137,
+      "pct_limit": 0.055,
+      "level": "SAFE"
+    },
+    "exercise": {
+      "dose_msv": 0.141,
+      "pct_limit": 0.056,
+      "level": "SAFE"
+    },
+    "cockpit": {
+      "dose_msv": 0.145,
+      "pct_limit": 0.058,
+      "level": "SAFE"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "module": "health",
+  "simulated_biomarkers": true,
+  "crew": {
+    "CDR": {
+      "level": "green",
+      "status": "Healthy",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [],
+      "early_sign": ""
+    },
+    "PLT": {
+      "level": "green",
+      "status": "Healthy",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
+      "body": [],
+      "early_sign": ""
+    },
+    "MS1": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 12 mSv.",
+      "body": [
+        "Sleep clearly lower than your normal since day 6 (5.4 h, your normal 6.7 h).",
+        "Body temperature clearly higher than your normal since day 7 (37.1 \u00b0C, your normal 36.8 \u00b0C)."
+      ],
+      "early_sign": "Since day 5: several small changes at the same time (sleep, resting heart rate, body temperature). Often the first sign of an infection or of exhaustion."
+    },
+    "MS2": {
+      "level": "green",
+      "status": "Healthy",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [],
+      "early_sign": ""
+    },
+    "MS3": {
+      "level": "yellow",
+      "status": "See the medical officer",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [
+        "Resting heart rate clearly higher than your normal since day 10 (87.0 bpm, your normal 68.5 bpm).",
+        "Sleep far lower than your normal since day 10 (5.0 h, your normal 6.9 h).",
+        "Body temperature far higher than your normal since day 10 (37.5 \u00b0C, your normal 36.6 \u00b0C)."
+      ],
+      "early_sign": "Since day 9: several small changes at the same time (sleep, body temperature, heart rate variability). Often the first sign of an infection or of exhaustion."
+    },
+    "MS4": {
+      "level": "green",
+      "status": "Healthy",
+      "radiation": "9 mSv in 14 days, like 4 years on Earth. Bone marrow (the organ that matters most): 4% of the monthly allowance. Skin and eyes: 1% and 1% of their allowances. The storm shelter saved you 11 mSv.",
+      "body": [],
+      "early_sign": ""
+    }
+  },
+  "level": "yellow",
+  "headline": "4 of 6 astronauts healthy. MS1 and MS3: see the medical officer",
+  "what_to_do": "The medical officer checks them today.",
+  "why": [
+    "Every value is compared with the astronaut's OWN normal values from before the flight.",
+    "Radiation does not show in these measurements at mission doses: it is watched with the dosimeters.",
+    "The biomarkers in this demo are SIMULATED."
+  ]
+}

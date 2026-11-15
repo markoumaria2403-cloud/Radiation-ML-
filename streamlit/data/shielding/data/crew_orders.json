@@ -1,0 +1,84 @@
+{
+  "storm": "live 2026-01-19 01:15:00 (STORM), WORST CASE (forecast + 1.65 x error)",
+  "time": "2026-01-19 01:15:00",
+  "orders": [
+    {
+      "astronaut": "CDR",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": -0.267,
+      "y": 0.073,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    },
+    {
+      "astronaut": "MS1",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": 0.327,
+      "y": -0.826,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    },
+    {
+      "astronaut": "MS2",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": 0.393,
+      "y": -0.849,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    },
+    {
+      "astronaut": "MS3",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": 0.208,
+      "y": 0.07,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    },
+    {
+      "astronaut": "MS4",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": -0.997,
+      "y": -0.253,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    },
+    {
+      "astronaut": "PLT",
+      "now_in": "sleep",
+      "floor": 4,
+      "x": -0.334,
+      "y": 0.404,
+      "go_to": "sleep",
+      "route": "",
+      "minutes": 0,
+      "dose_if_stays_msv": 0.08,
+      "dose_if_goes_msv": 0.08,
+      "saves_msv": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "module": "crew_routes",
+  "updated": "2025-11-18 23:55:00",
+  "crew": {
+    "CDR": {
+      "level": "green",
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+    },
+    "MS1": {
+      "level": "green",
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 21 mSv. You saved 12 mSv."
+    },
+    "MS2": {
+      "level": "green",
+      "message": "When the warning came you were in the Galley: you went Galley -> Hygiene bay -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+    },
+    "MS3": {
+      "level": "green",
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+    },
+    "MS4": {
+      "level": "green",
+      "message": "When the warning came you were in the Hygiene bay: you went Hygiene bay -> Storm shelter (30 seconds). Your dose: 9 mSv; without the warning it would be 20 mSv. You saved 11 mSv."
+    },
+    "PLT": {
+      "level": "green",
+      "message": "When the warning came you were in the Exercise area: you went Exercise area -> Crew seats -> Storm shelter (60 seconds). Your dose: 9 mSv; without the warning it would be 21 mSv. You saved 12 mSv."
+    }
+  },
+  "level": "green",
+  "headline": "The storm shelter cut the crew's dose in half: 9 mSv each instead of 20",
+  "what_to_do": "Nothing: the storm is over.",
+  "why": [
+    "On 11 November at 10:35 the dosimeters saw the radiation rising (Cockpit, Crew seats, Exercise area, Hygiene bay).",
+    "Every astronaut was in the storm shelter within 1 minute(s) and stayed there 42 hours.",
+    "14 days in space gave each astronaut 9 mSv, like 4 years of natural radiation on Earth, 4% of the monthly allowance."
+  ]
+}
